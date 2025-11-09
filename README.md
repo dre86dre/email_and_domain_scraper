@@ -20,3 +20,53 @@ A simple, beginner-friendly Python script example that demonstrates how to scrap
 - your own sites
 - official APIs
 - or public sandbox sites designed for scraping practice (e.g. [ScrapePark.org](https://scrapepark.org), [scrapethissite.com](https://www.scrapethissite.com)).
+
+---
+
+## Requirements
+
+- Python 3.8+ recommended
+- Packages:
+  - `requests`
+  - `beautifulsoup4`
+ 
+---
+
+## Installation
+
+1. Clone the repo:
+
+```
+git clone https://github.com/dre86dre/email_and_domain_scraper.git
+cd email_and_domain_scraper
+```
+
+2. (Optional) Create and activate a virtual environment:
+
+```
+python -m venv .venv
+source .venv/bin/activate
+```
+
+---
+
+## Usage
+
+The repository contains a the script, `email_and_domain_scraper.py`. To run it:
+
+```
+python email_and_domain_scraper.py
+```
+
+for the example, the script targets a safe practice URL:
+
+```
+url = "https://scrapepark.org/"
+```
+
+If you want to run the script against a different page you own or have permission to scrape, change the `url` variable in the script.
+
+After running, the script will print found emails/domains to the console and write them to `scraped_results.csv`.
+
+---
+
