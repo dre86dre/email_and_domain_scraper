@@ -58,7 +58,7 @@ The repository contains a the script, `email_and_domain_scraper.py`. To run it:
 python email_and_domain_scraper.py
 ```
 
-for the example, the script targets a safe practice URL:
+For the example, the script targets a safe practice URL:
 
 ```
 url = "https://scrapepark.org/"
@@ -70,3 +70,6 @@ After running, the script will print found emails/domains to the console and wri
 
 ---
 
+## License
+
+This project is licensed under the [MIT License](https://github.com/dre86dre/email_and_domain_scraper/blob/main/LICENSE).
