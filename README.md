@@ -37,7 +37,7 @@ A simple, beginner-friendly Python script example that demonstrates how to scrap
 1. Clone the repo:
 
 ```
-git clone https://github.com/dre86dre/email_and_domain_scraper.git
+git clone https://github.com/coder0name0dre/email_and_domain_scraper.git
 cd email_and_domain_scraper
 ```
 
@@ -72,4 +72,4 @@ After running, the script will print found emails/domains to the console and wri
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/dre86dre/email_and_domain_scraper/blob/main/LICENSE).
+This project is licensed under the [MIT License](https://github.com/coder0name0dre/email_and_domain_scraper/blob/main/LICENSE).
